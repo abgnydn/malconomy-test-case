@@ -2,10 +2,15 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Quicksand','Montserrat', sans-serif;
+  font-size: 10px;
 }
-
+:root {
+  --primary-color: #FFCC33;
+  --background-color: #FAFAFA;
+  --secondary-color: #00CC00;
+  --description-color: #999999;
+}
 a {
   color: inherit;
   text-decoration: none;
