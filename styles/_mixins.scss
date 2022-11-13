@@ -36,6 +36,7 @@
   border-radius: 16px;
   min-width: 27rem;
   max-width: 32rem;
+  color: black;
 }
 
 @mixin button {
@@ -59,6 +60,7 @@
   align-self: stretch;
   flex-grow: 0;
   margin-bottom: 1.8rem;
+  color: black;
 }
 
 @mixin description {
@@ -70,12 +72,13 @@
   align-self: stretch;
   flex-grow: 0;
   margin-bottom: 3.2rem;
+  color: black;
 }
 @mixin point {
   color: var(--secondary-color);
   font-weight: 700;
   font-size: 14px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   line-height: 18px;
   flex-shrink: 1;
